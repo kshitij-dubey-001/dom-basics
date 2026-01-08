@@ -8,3 +8,7 @@ function increase() {
   document.getElementById("count").innerText = count;
 }
 
+function changeColor() {
+  document.body.style.backgroundColor = "lightblue";
+}
+

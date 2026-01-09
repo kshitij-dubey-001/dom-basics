@@ -11,4 +11,8 @@ function increase() {
 function changeColor() {
   document.body.style.backgroundColor = "lightblue";
 }
+function showName() {
+  let val = document.getElementById("name").value;
+  document.getElementById("result").innerText = val;
+}
 

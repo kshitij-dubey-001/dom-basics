@@ -15,4 +15,10 @@ function showName() {
   let val = document.getElementById("name").value;
   document.getElementById("result").innerText = val;
 }
+const box = document.getElementById("box");
+const toggleBtn = document.getElementById("toggleBtn");
+
+toggleBtn.addEventListener("click", () => {
+  box.classList.toggle("active");
+});
 
